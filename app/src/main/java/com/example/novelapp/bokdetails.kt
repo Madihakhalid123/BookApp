@@ -24,7 +24,7 @@ val bookpdf=intent.getStringExtra("Book_pdf").toString()
        binding.bookimage.setImageResource(bookimage)
         binding.readbook.setOnClickListener(){
             val intent=Intent()
-            intent.putExtra("Pdf_book",bookpdf)
+            intent.putExtra("Book_pdf",bookpdf)
             intent.setClass(this,pdfActivity::class.java)
             startActivity(intent)
         }

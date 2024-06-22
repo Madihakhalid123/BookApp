@@ -22,8 +22,8 @@ class pdfActivity : AppCompatActivity() {
                     WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
         supportActionBar?.hide()
-       val pdf=intent.getStringExtra("Pdf_book").toString()
-binding.pdfView.fromAsset("jant.pdf")
+       val pdf=intent.getStringExtra("Book_pdf").toString()
+binding.pdfView.fromAsset(pdf)
 
     .enableSwipe(true)
     .load()
