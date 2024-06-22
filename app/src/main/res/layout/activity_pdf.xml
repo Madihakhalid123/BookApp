@@ -12,6 +12,9 @@
     android:layout_margin="10dp"
 app:strokeColor="@color/purple_500"
     app:cardElevation="5dp">
-
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

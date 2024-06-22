@@ -37,7 +37,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/bookimage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
@@ -56,7 +56,7 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/materialCardView2"
+        android:id="@+id/playerbuttun"
         android:layout_width="70dp"
         android:layout_height="70dp"
         app:cardBackgroundColor="#DA2828"
@@ -77,7 +77,7 @@
     </com.google.android.material.card.MaterialCardView>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/booktitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -87,12 +87,12 @@
         android:text="My name is madiha khalid and my father name is khalid mehmood "
         android:textColor="@color/black"
         android:textSize="30sp"
-        app:layout_constraintEnd_toStartOf="@+id/materialCardView2"
+        app:layout_constraintEnd_toStartOf="@+id/playerbuttun"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/discription"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -103,13 +103,13 @@
         android:text="Amar Bail is a love story of Umar Jehangir and Aleezay Sikandar, set-up in the backdrop of Pakistani bureaucratic culture. It is a story of imbalanced relationships, broken families, lust for power, complexes, insecurities and amidst all problems of love, its intensity and sacrifices."
         android:textColor="@color/black"
         android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@+id/extendedFloatingActionButton"
+        app:layout_constraintBottom_toTopOf="@+id/readbook"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/booktitle" />
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-        android:id="@+id/extendedFloatingActionButton"
+        android:id="@+id/readbook"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
