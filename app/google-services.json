@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "542970324622",
+    "project_id": "novelpdf-5be86",
+    "storage_bucket": "novelpdf-5be86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542970324622:android:cdb60ed170b4c989c28bdf",
+        "android_client_info": {
+          "package_name": "com.example.novelapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB88kYrgK5z8JmQPlljR5J6WxHreeKnAbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

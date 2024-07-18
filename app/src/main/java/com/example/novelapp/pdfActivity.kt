@@ -26,6 +26,12 @@ class pdfActivity : AppCompatActivity() {
 binding.pdfView.fromAsset(pdf)
 
     .enableSwipe(true)
+
+    
+    .enableDoubletap(true)
+    .defaultPage(0)
     .load()
+
+
     }
 }
